@@ -2,12 +2,14 @@
 # python predict.py --model output/neural_net.model --images gtsrb-german-traffic-sign/Test --predictions predictions
 
 # import packages
-
-import tensorflow.keras
-import skimage
-import imutils
+from tensorflow.keras.models import load_model
+from skimage import transform
+from skimage import exposure
+from skimage import io
+from imutils import paths
 import numpy as np
 import argparse
+import imutils
 import random
 import cv2
 import os

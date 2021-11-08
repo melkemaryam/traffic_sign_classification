@@ -9,14 +9,15 @@ matplotlib.use("Agg")
 # import packages
 from neural_net import Neural_Net
 
-import tensorflow.keras
-
-import sklearn
-import skimage
-
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.utils import to_categorical
+from sklearn.metrics import classification_report
+from skimage import transform
+from skimage import exposure
+from skimage import io
 import numpy as np
 import argparse
-
 import random
 import os
 
@@ -45,7 +46,7 @@ def load_images(pwd, path_to_csv):
 	for (i, row) in enumerate(rows):
 		
 		# check for status update
-		if i > 0 and i % 1000 == 0:
+		if i > 0 and i % 100 == 0:
 			print("[INFO] processed {} total images".format(i))
 
 		# split the row into components
@@ -83,8 +84,8 @@ path_to_test = os.path.sep.join([args["dataset"], "Test.csv"])
 
 # load the training and testing data
 print("[INFO] loading training and testing data...")
-(train_X, train_Y) = load_split(args["dataset"], path_to_train)
-(test_X, test_Y) = load_split(args["dataset"], path_to_test)
+(train_X, train_Y) = load_images(args["dataset"], path_to_train)
+(test_X, test_Y) = load_images(args["dataset"], path_to_test)
 
 # scale data to the range of [0, 1]
 train_X = train_X.astype("float32") / 255.0
@@ -118,7 +119,7 @@ aug = ImageDataGenerator(
 
 # initialize the optimizer and compile the model
 print("[INFO] compiling model...")
-optimiser = Adam(lr=INIT_LR, decay=INIT_LR / (NUM_EPOCHS * 0.5))
+optimiser = Adam(learning_rate=INIT_LR, decay=INIT_LR / (NUM_EPOCHS * 0.5))
 model = Neural_Net.create_net(w=32, h=32, d=3, signs=num_signs)
 model.compile(loss="categorical_crossentropy", optimizer=optimiser, metrics=["accuracy"])
 
