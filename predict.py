@@ -16,12 +16,9 @@ import os
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
-ap.add_argument("-m", "--model", required=True,
-	help="path to pre-trained traffic sign recognizer")
-ap.add_argument("-i", "--images", required=True,
-	help="path to testing directory containing images")
-ap.add_argument("-e", "--examples", required=True,
-	help="path to output examples directory")
+ap.add_argument("-m", "--model", required=True, help="path to pre-trained traffic sign recognizer")
+ap.add_argument("-i", "--images", required=True, help="path to testing directory containing images")
+ap.add_argument("-e", "--examples", required=True, help="path to output examples directory")
 args = vars(ap.parse_args())
 
 # load the traffic sign recognizer model
@@ -30,7 +27,7 @@ model = load_model(args["model"])
 
 # load the label names
 labelNames = open("signnames.csv").read().strip().split("\n")[1:]
-labelNames = [l.split(",")[1] for l in labelNames]
+labelNames = [l.split(";")[1] for l in labelNames]
 
 # grab the paths to the input images, shuffle them, and grab a sample
 print("[INFO] predicting...")
@@ -60,8 +57,7 @@ for (i, imagePath) in enumerate(imagePaths):
 	# on it
 	image = cv2.imread(imagePath)
 	image = imutils.resize(image, width=128)
-	cv2.putText(image, label, (5, 15), cv2.FONT_HERSHEY_SIMPLEX,
-		0.45, (0, 0, 255), 2)
+	cv2.putText(image, label, (5, 15), cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 0, 255), 2)
 
 	# save the image to disk
 	p = os.path.sep.join([args["examples"], "{}.png".format(i)])

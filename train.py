@@ -36,7 +36,7 @@ def load_split(basePath, csvPath):
 
 		# split the row into components and then grab the class ID
 		# and image path
-		(label, imagePath) = row.strip().split(",")[-2:]
+		(label, imagePath) = row.strip().split(";")[-2:]
 
 		# derive the full path to the image file and load it
 		imagePath = os.path.sep.join([basePath, imagePath])
@@ -61,12 +61,9 @@ def load_split(basePath, csvPath):
 
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
-ap.add_argument("-d", "--dataset", required=True,
-	help="path to input GTSRB")
-ap.add_argument("-m", "--model", required=True,
-	help="path to output model")
-ap.add_argument("-p", "--plot", type=str, default="plot.png",
-	help="path to training history plot")
+ap.add_argument("-d", "--dataset", required=True, help="path to input GTSRB")
+ap.add_argument("-m", "--model", required=True, help="path to output model")
+ap.add_argument("-p", "--plot", type=str, default="plot.png", help="path to training history plot")
 args = vars(ap.parse_args())
 
 # initialize the number of epochs to train for, base learning rate,
@@ -77,7 +74,7 @@ BS = 64
 
 # load the label names
 labelNames = open("signnames.csv").read().strip().split("\n")[1:]
-labelNames = [l.split(",")[1] for l in labelNames]
+labelNames = [l.split(";")[1] for l in labelNames]
 
 # derive the path to the training and testing CSV files
 trainPath = os.path.sep.join([args["dataset"], "Train.csv"])
