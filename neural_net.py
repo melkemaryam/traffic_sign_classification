@@ -1,46 +1,37 @@
-# import the necessary packages
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import BatchNormalization
-from tensorflow.keras.layers import Conv2D
-from tensorflow.keras.layers import MaxPooling2D
-from tensorflow.keras.layers import Activation
-from tensorflow.keras.layers import Flatten
-from tensorflow.keras.layers import Dropout
-from tensorflow.keras.layers import Dense
+# import packages
+import tensorflow.keras
 
-class TrafficSignNet:
-	
-	@staticmethod
-	def build(width, height, depth, classes):
-		
-		# initialize the model along with the input shape to be
-		# "channels last" and the channels dimension itself
+class Neural_Net:
+
+	def create_net(w, h, d, signs):
+
+		#initialise model
 		model = Sequential()
-		inputShape = (height, width, depth)
-		chanDim = -1
+		input_shape = (h, w, d)
+		channel_dimension = -1 #Channels Last. Image data is represented in a three-dimensional array where the last channel represents the color channels, e.g. [rows][cols][channels].
 
 		# CONV => RELU => BN => POOL
-		model.add(Conv2D(8, (5, 5), padding="same", input_shape=inputShape))
+		model.add(Conv2D(8, (5, 5), padding="same", input_shape=input_shape))
 		model.add(Activation("relu"))
-		model.add(BatchNormalization(axis=chanDim))
+		model.add(BatchNormalization(axis=channel_dimension))
 		model.add(MaxPooling2D(pool_size=(2, 2)))
 
 		# first set of (CONV => RELU => CONV => RELU) * 2 => POOL
 		model.add(Conv2D(16, (3, 3), padding="same"))
 		model.add(Activation("relu"))
-		model.add(BatchNormalization(axis=chanDim))
+		model.add(BatchNormalization(axis=channel_dimension))
 		model.add(Conv2D(16, (3, 3), padding="same"))
 		model.add(Activation("relu"))
-		model.add(BatchNormalization(axis=chanDim))
+		model.add(BatchNormalization(axis=channel_dimension))
 		model.add(MaxPooling2D(pool_size=(2, 2)))
 
 		# second set of (CONV => RELU => CONV => RELU) * 2 => POOL
 		model.add(Conv2D(32, (3, 3), padding="same"))
 		model.add(Activation("relu"))
-		model.add(BatchNormalization(axis=chanDim))
+		model.add(BatchNormalization(axis=channel_dimension))
 		model.add(Conv2D(32, (3, 3), padding="same"))
 		model.add(Activation("relu"))
-		model.add(BatchNormalization(axis=chanDim))
+		model.add(BatchNormalization(axis=channel_dimension))
 		model.add(MaxPooling2D(pool_size=(2, 2)))
 
 		# first set of FC => RELU layers
@@ -58,7 +49,7 @@ class TrafficSignNet:
 		model.add(Dropout(0.5))
 
 		# softmax classifier
-		model.add(Dense(classes))
+		model.add(Dense(signs))
 		model.add(Activation("softmax"))
 
 		# return the constructed network architecture
