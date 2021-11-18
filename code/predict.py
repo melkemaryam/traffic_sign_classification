@@ -1,6 +1,3 @@
-# USAGE
-# python predict.py --model output/neural_net.model --images gtsrb-german-traffic-sign/Test --predictions predictions
-
 # import packages
 import argparse
 from arguments import Args

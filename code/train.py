@@ -1,6 +1,3 @@
-# USAGE
-# python train.py --dataset gtsrb-german-traffic-sign --model output/neural_net.model --plot output/plot.png
-
 # set the matplotlib backend so figures can be saved in the background
 import matplotlib
 import matplotlib.pyplot as plt
@@ -34,21 +31,23 @@ class Train_Net:
 		self.net = Neural_Net()
 
 		# initialise parameters
-		self.number_of_epochs = 50
-		self.initial_learning_rate = 1e-2
-		self.batch_size = 64
+		self.number_of_epochs = 20
+		self.initial_learning_rate = 1e-0
+		self.batch_size = 32
 
 		# prepare the data and the model
 		self.prepare_data()
 
-		# train the model
-		train = self.train()
+		for i in range(3):
+			
+			# train the model
+			train = self.train()
 
-		# evaluate the model
-		self.evaluate()
+			# evaluate the model
+			self.evaluate(i)
 
-		# save data in a plot
-		self.save_data(train)
+			# save data in a plot
+			self.save_data(train)
 
 
 	def load_images(self, pwd, path_to_csv):
@@ -64,7 +63,7 @@ class Train_Net:
 		for (i, row) in enumerate(rows):
 			
 			# print status update
-			if i > 0 and i % 150 == 0:
+			if i > 0 and i % 200 == 0:
 				print("[INFO] processed {} total images".format(i))
 
 			# get classId and path to image
@@ -176,14 +175,26 @@ class Train_Net:
 
 		return train
 
-	def evaluate(self):
+	def evaluate(self, i):
 
 		# evaluate the network
 		print("[INFO] evaluating network...")
 
 		sign_names = self.get_sign_names()
 		predictions = self.model.predict(self.test_X, batch_size=self.batch_size)
-		print(classification_report(self.test_Y.argmax(axis=1), predictions.argmax(axis=1), target_names=sign_names))
+		self.report = classification_report(self.test_Y.argmax(axis=1), predictions.argmax(axis=1), target_names=sign_names)
+		print(self.report)
+		self.write_report(self.report, i)
+
+	def write_report(self, report, i):
+
+		file = open("../reports/test_report_" + str(self.number_of_epochs) + "_" + str(self.batch_size) + "_" + str(self.initial_learning_rate) +".txt", "a")
+		file.write("This is iteration no: " + str(i) + " with epochs = " + str(self.number_of_epochs) + ", batch size = " + str(self.batch_size) + ", and learning rate = " + str(self.initial_learning_rate) +" \n")
+		file.write(report)
+		file.write("\n")
+		file.close()
+
+		print("[INFO] report written")
 		
 	def save_data(self, train):
 		

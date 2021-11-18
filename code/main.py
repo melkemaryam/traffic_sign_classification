@@ -1,6 +1,6 @@
 # Usage
 
-# python main.py --model ../output/neural_net.model --dataset ../gtsrb-german-traffic-sign --images ../gtsrb-german-traffic-sign/Test --predictions ../predictions --plot ../output/plot.png
+# python main.py --model ../output/neural_net.model --dataset ../gtsrb --images ../gtsrb/Test --predictions ../predictions --plot ../output/plot.png
 
 
 from arguments import Args

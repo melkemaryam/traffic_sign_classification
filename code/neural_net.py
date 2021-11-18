@@ -41,6 +41,7 @@ class Neural_Net:
 		# pooling
 		self.add_pooling()
 
+		self.model.add(Flatten())
 		# first fully connected layer
 		self.add_fully_connected()
 
@@ -77,7 +78,6 @@ class Neural_Net:
 
 	def add_fully_connected(self):
 
-		self.model.add(Flatten())
 		self.model.add(Dense(128))
 		self.model.add(Activation("relu"))
 		self.model.add(BatchNormalization())
