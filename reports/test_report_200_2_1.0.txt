@@ -1,0 +1,2000 @@
+This is iteration no: 0 with epochs = 33, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.51      0.29      0.37       117
+   Turn left       0.50      0.72      0.59       117
+
+    accuracy                           0.50       234
+   macro avg       0.51      0.50      0.48       234
+weighted avg       0.51      0.50      0.48       234
+
+This is iteration no: 1 with epochs = 8, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.52      0.89      0.66       117
+   Turn left       0.63      0.19      0.29       117
+
+    accuracy                           0.54       234
+   macro avg       0.58      0.54      0.47       234
+weighted avg       0.58      0.54      0.47       234
+
+This is iteration no: 2 with epochs = 8, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.49      0.79      0.60       117
+   Turn left       0.44      0.17      0.25       117
+
+    accuracy                           0.48       234
+   macro avg       0.47      0.48      0.42       234
+weighted avg       0.47      0.48      0.42       234
+
+This is iteration no: 3 with epochs = 19, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.54      0.45      0.49       117
+   Turn left       0.53      0.62      0.57       117
+
+    accuracy                           0.53       234
+   macro avg       0.54      0.53      0.53       234
+weighted avg       0.54      0.53      0.53       234
+
+This is iteration no: 4 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.53      0.60      0.56       117
+   Turn left       0.54      0.48      0.51       117
+
+    accuracy                           0.54       234
+   macro avg       0.54      0.54      0.54       234
+weighted avg       0.54      0.54      0.54       234
+
+This is iteration no: 5 with epochs = 12, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.54      0.81      0.65       117
+   Turn left       0.62      0.31      0.41       117
+
+    accuracy                           0.56       234
+   macro avg       0.58      0.56      0.53       234
+weighted avg       0.58      0.56      0.53       234
+
+This is iteration no: 6 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.54      0.59      0.56       117
+   Turn left       0.55      0.50      0.52       117
+
+    accuracy                           0.54       234
+   macro avg       0.54      0.54      0.54       234
+weighted avg       0.54      0.54      0.54       234
+
+This is iteration no: 7 with epochs = 13, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.53      0.84      0.65       117
+   Turn left       0.62      0.26      0.37       117
+
+    accuracy                           0.55       234
+   macro avg       0.58      0.55      0.51       234
+weighted avg       0.58      0.55      0.51       234
+
+This is iteration no: 8 with epochs = 20, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.50      0.68      0.57       117
+   Turn left       0.50      0.32      0.39       117
+
+    accuracy                           0.50       234
+   macro avg       0.50      0.50      0.48       234
+weighted avg       0.50      0.50      0.48       234
+
+This is iteration no: 9 with epochs = 10, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.55      0.63      0.59       117
+   Turn left       0.57      0.48      0.52       117
+
+    accuracy                           0.56       234
+   macro avg       0.56      0.56      0.55       234
+weighted avg       0.56      0.56      0.55       234
+
+This is iteration no: 10 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.54      0.68      0.60       117
+   Turn left       0.56      0.42      0.48       117
+
+    accuracy                           0.55       234
+   macro avg       0.55      0.55      0.54       234
+weighted avg       0.55      0.55      0.54       234
+
+This is iteration no: 11 with epochs = 11, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.48      0.72      0.57       117
+   Turn left       0.43      0.21      0.29       117
+
+    accuracy                           0.47       234
+   macro avg       0.45      0.47      0.43       234
+weighted avg       0.45      0.47      0.43       234
+
+This is iteration no: 12 with epochs = 13, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.45      0.66      0.53       117
+   Turn left       0.35      0.19      0.25       117
+
+    accuracy                           0.42       234
+   macro avg       0.40      0.42      0.39       234
+weighted avg       0.40      0.42      0.39       234
+
+This is iteration no: 13 with epochs = 10, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.52      0.73      0.61       117
+   Turn left       0.56      0.34      0.42       117
+
+    accuracy                           0.53       234
+   macro avg       0.54      0.53      0.52       234
+weighted avg       0.54      0.53      0.52       234
+
+This is iteration no: 14 with epochs = 8, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.57      0.85      0.68       117
+   Turn left       0.70      0.36      0.47       117
+
+    accuracy                           0.60       234
+   macro avg       0.63      0.60      0.58       234
+weighted avg       0.63      0.60      0.58       234
+
+This is iteration no: 15 with epochs = 13, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.49      0.77      0.60       117
+   Turn left       0.47      0.21      0.29       117
+
+    accuracy                           0.49       234
+   macro avg       0.48      0.49      0.44       234
+weighted avg       0.48      0.49      0.44       234
+
+This is iteration no: 16 with epochs = 12, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.51      0.67      0.58       117
+   Turn left       0.51      0.35      0.42       117
+
+    accuracy                           0.51       234
+   macro avg       0.51      0.51      0.50       234
+weighted avg       0.51      0.51      0.50       234
+
+This is iteration no: 17 with epochs = 10, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.60      0.83      0.69       117
+   Turn left       0.72      0.44      0.54       117
+
+    accuracy                           0.63       234
+   macro avg       0.66      0.63      0.62       234
+weighted avg       0.66      0.63      0.62       234
+
+This is iteration no: 18 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.59      0.87      0.70       117
+   Turn left       0.75      0.38      0.51       117
+
+    accuracy                           0.63       234
+   macro avg       0.67      0.63      0.60       234
+weighted avg       0.67      0.63      0.60       234
+
+This is iteration no: 19 with epochs = 16, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.57      0.76      0.65       117
+   Turn left       0.64      0.42      0.51       117
+
+    accuracy                           0.59       234
+   macro avg       0.60      0.59      0.58       234
+weighted avg       0.60      0.59      0.58       234
+
+This is iteration no: 20 with epochs = 11, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.55      0.89      0.68       117
+   Turn left       0.71      0.27      0.40       117
+
+    accuracy                           0.58       234
+   macro avg       0.63      0.58      0.54       234
+weighted avg       0.63      0.58      0.54       234
+
+This is iteration no: 21 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.56      0.93      0.70       117
+   Turn left       0.79      0.26      0.39       117
+
+    accuracy                           0.59       234
+   macro avg       0.67      0.59      0.54       234
+weighted avg       0.67      0.59      0.54       234
+
+This is iteration no: 22 with epochs = 15, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.57      0.79      0.66       117
+   Turn left       0.66      0.40      0.50       117
+
+    accuracy                           0.60       234
+   macro avg       0.62      0.60      0.58       234
+weighted avg       0.62      0.60      0.58       234
+
+This is iteration no: 23 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.53      0.78      0.63       117
+   Turn left       0.58      0.31      0.40       117
+
+    accuracy                           0.54       234
+   macro avg       0.55      0.54      0.52       234
+weighted avg       0.55      0.54      0.52       234
+
+This is iteration no: 24 with epochs = 12, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.54      0.85      0.66       117
+   Turn left       0.63      0.26      0.37       117
+
+    accuracy                           0.56       234
+   macro avg       0.58      0.56      0.51       234
+weighted avg       0.58      0.56      0.51       234
+
+This is iteration no: 25 with epochs = 11, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.55      0.86      0.67       117
+   Turn left       0.68      0.29      0.41       117
+
+    accuracy                           0.58       234
+   macro avg       0.61      0.58      0.54       234
+weighted avg       0.61      0.58      0.54       234
+
+This is iteration no: 26 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.53      0.85      0.66       117
+   Turn left       0.63      0.25      0.36       117
+
+    accuracy                           0.55       234
+   macro avg       0.58      0.55      0.51       234
+weighted avg       0.58      0.55      0.51       234
+
+This is iteration no: 27 with epochs = 13, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.55      0.83      0.66       117
+   Turn left       0.65      0.32      0.43       117
+
+    accuracy                           0.57       234
+   macro avg       0.60      0.57      0.54       234
+weighted avg       0.60      0.57      0.54       234
+
+This is iteration no: 28 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.55      0.77      0.64       117
+   Turn left       0.61      0.37      0.46       117
+
+    accuracy                           0.57       234
+   macro avg       0.58      0.57      0.55       234
+weighted avg       0.58      0.57      0.55       234
+
+This is iteration no: 29 with epochs = 10, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.56      0.74      0.64       117
+   Turn left       0.62      0.41      0.49       117
+
+    accuracy                           0.58       234
+   macro avg       0.59      0.58      0.56       234
+weighted avg       0.59      0.58      0.56       234
+
+This is iteration no: 30 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.60      0.90      0.72       117
+   Turn left       0.79      0.39      0.53       117
+
+    accuracy                           0.65       234
+   macro avg       0.69      0.65      0.62       234
+weighted avg       0.69      0.65      0.62       234
+
+This is iteration no: 31 with epochs = 14, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.55      0.81      0.66       117
+   Turn left       0.64      0.33      0.44       117
+
+    accuracy                           0.57       234
+   macro avg       0.59      0.57      0.55       234
+weighted avg       0.59      0.57      0.55       234
+
+This is iteration no: 32 with epochs = 8, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.50      0.88      0.64       117
+   Turn left       0.53      0.14      0.22       117
+
+    accuracy                           0.51       234
+   macro avg       0.52      0.51      0.43       234
+weighted avg       0.52      0.51      0.43       234
+
+This is iteration no: 33 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.53      0.76      0.62       117
+   Turn left       0.58      0.32      0.42       117
+
+    accuracy                           0.54       234
+   macro avg       0.55      0.54      0.52       234
+weighted avg       0.55      0.54      0.52       234
+
+This is iteration no: 34 with epochs = 11, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.54      0.75      0.63       117
+   Turn left       0.60      0.37      0.46       117
+
+    accuracy                           0.56       234
+   macro avg       0.57      0.56      0.54       234
+weighted avg       0.57      0.56      0.54       234
+
+This is iteration no: 35 with epochs = 8, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.57      0.74      0.64       117
+   Turn left       0.63      0.44      0.52       117
+
+    accuracy                           0.59       234
+   macro avg       0.60      0.59      0.58       234
+weighted avg       0.60      0.59      0.58       234
+
+This is iteration no: 36 with epochs = 24, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.55      0.88      0.68       117
+   Turn left       0.71      0.29      0.41       117
+
+    accuracy                           0.59       234
+   macro avg       0.63      0.59      0.55       234
+weighted avg       0.63      0.59      0.55       234
+
+This is iteration no: 37 with epochs = 14, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.57      0.86      0.69       117
+   Turn left       0.72      0.36      0.48       117
+
+    accuracy                           0.61       234
+   macro avg       0.65      0.61      0.58       234
+weighted avg       0.65      0.61      0.58       234
+
+This is iteration no: 38 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.56      0.88      0.68       117
+   Turn left       0.72      0.31      0.43       117
+
+    accuracy                           0.59       234
+   macro avg       0.64      0.59      0.56       234
+weighted avg       0.64      0.59      0.56       234
+
+This is iteration no: 39 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.56      0.83      0.67       117
+   Turn left       0.67      0.34      0.45       117
+
+    accuracy                           0.59       234
+   macro avg       0.61      0.59      0.56       234
+weighted avg       0.61      0.59      0.56       234
+
+This is iteration no: 40 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.53      0.79      0.64       117
+   Turn left       0.59      0.30      0.40       117
+
+    accuracy                           0.55       234
+   macro avg       0.56      0.55      0.52       234
+weighted avg       0.56      0.55      0.52       234
+
+This is iteration no: 41 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.53      0.77      0.63       117
+   Turn left       0.58      0.32      0.41       117
+
+    accuracy                           0.54       234
+   macro avg       0.55      0.54      0.52       234
+weighted avg       0.55      0.54      0.52       234
+
+This is iteration no: 42 with epochs = 8, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.51      0.89      0.65       117
+   Turn left       0.59      0.16      0.26       117
+
+    accuracy                           0.53       234
+   macro avg       0.55      0.53      0.45       234
+weighted avg       0.55      0.53      0.45       234
+
+This is iteration no: 43 with epochs = 10, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.56      0.85      0.68       117
+   Turn left       0.70      0.34      0.46       117
+
+    accuracy                           0.60       234
+   macro avg       0.63      0.60      0.57       234
+weighted avg       0.63      0.60      0.57       234
+
+This is iteration no: 44 with epochs = 14, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.58      0.98      0.73       117
+   Turn left       0.94      0.29      0.44       117
+
+    accuracy                           0.64       234
+   macro avg       0.76      0.64      0.59       234
+weighted avg       0.76      0.64      0.59       234
+
+This is iteration no: 45 with epochs = 21, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.49      0.88      0.63       117
+   Turn left       0.44      0.09      0.15       117
+
+    accuracy                           0.49       234
+   macro avg       0.47      0.49      0.39       234
+weighted avg       0.47      0.49      0.39       234
+
+This is iteration no: 46 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.54      0.89      0.68       117
+   Turn left       0.70      0.26      0.37       117
+
+    accuracy                           0.57       234
+   macro avg       0.62      0.57      0.53       234
+weighted avg       0.62      0.57      0.53       234
+
+This is iteration no: 47 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.55      0.82      0.66       117
+   Turn left       0.64      0.32      0.43       117
+
+    accuracy                           0.57       234
+   macro avg       0.60      0.57      0.54       234
+weighted avg       0.60      0.57      0.54       234
+
+This is iteration no: 48 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.56      0.88      0.69       117
+   Turn left       0.73      0.32      0.44       117
+
+    accuracy                           0.60       234
+   macro avg       0.64      0.60      0.56       234
+weighted avg       0.64      0.60      0.56       234
+
+This is iteration no: 49 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.51      0.91      0.65       117
+   Turn left       0.57      0.11      0.19       117
+
+    accuracy                           0.51       234
+   macro avg       0.54      0.51      0.42       234
+weighted avg       0.54      0.51      0.42       234
+
+This is iteration no: 50 with epochs = 15, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.51      0.78      0.61       117
+   Turn left       0.53      0.25      0.34       117
+
+    accuracy                           0.51       234
+   macro avg       0.52      0.51      0.48       234
+weighted avg       0.52      0.51      0.48       234
+
+This is iteration no: 51 with epochs = 10, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.53      0.75      0.62       117
+   Turn left       0.57      0.32      0.41       117
+
+    accuracy                           0.54       234
+   macro avg       0.55      0.54      0.52       234
+weighted avg       0.55      0.54      0.52       234
+
+This is iteration no: 52 with epochs = 12, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.54      0.91      0.68       117
+   Turn left       0.72      0.22      0.34       117
+
+    accuracy                           0.57       234
+   macro avg       0.63      0.57      0.51       234
+weighted avg       0.63      0.57      0.51       234
+
+This is iteration no: 53 with epochs = 8, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.53      0.79      0.64       117
+   Turn left       0.59      0.30      0.40       117
+
+    accuracy                           0.55       234
+   macro avg       0.56      0.55      0.52       234
+weighted avg       0.56      0.55      0.52       234
+
+This is iteration no: 54 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.55      0.80      0.66       117
+   Turn left       0.64      0.35      0.45       117
+
+    accuracy                           0.58       234
+   macro avg       0.60      0.58      0.55       234
+weighted avg       0.60      0.58      0.55       234
+
+This is iteration no: 55 with epochs = 10, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.52      0.94      0.67       117
+   Turn left       0.68      0.13      0.22       117
+
+    accuracy                           0.53       234
+   macro avg       0.60      0.53      0.44       234
+weighted avg       0.60      0.53      0.44       234
+
+This is iteration no: 56 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.56      0.87      0.68       117
+   Turn left       0.71      0.31      0.43       117
+
+    accuracy                           0.59       234
+   macro avg       0.63      0.59      0.55       234
+weighted avg       0.63      0.59      0.55       234
+
+This is iteration no: 57 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.51      0.88      0.64       117
+   Turn left       0.55      0.15      0.23       117
+
+    accuracy                           0.51       234
+   macro avg       0.53      0.51      0.44       234
+weighted avg       0.53      0.51      0.44       234
+
+This is iteration no: 58 with epochs = 15, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.47      0.76      0.58       117
+   Turn left       0.38      0.15      0.21       117
+
+    accuracy                           0.45       234
+   macro avg       0.42      0.45      0.40       234
+weighted avg       0.42      0.45      0.40       234
+
+This is iteration no: 59 with epochs = 11, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.48      0.77      0.59       117
+   Turn left       0.41      0.16      0.23       117
+
+    accuracy                           0.47       234
+   macro avg       0.45      0.47      0.41       234
+weighted avg       0.45      0.47      0.41       234
+
+This is iteration no: 60 with epochs = 8, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.51      0.84      0.63       117
+   Turn left       0.54      0.19      0.28       117
+
+    accuracy                           0.51       234
+   macro avg       0.52      0.51      0.46       234
+weighted avg       0.52      0.51      0.46       234
+
+This is iteration no: 61 with epochs = 11, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.52      0.84      0.64       117
+   Turn left       0.60      0.24      0.34       117
+
+    accuracy                           0.54       234
+   macro avg       0.56      0.54      0.49       234
+weighted avg       0.56      0.54      0.49       234
+
+This is iteration no: 62 with epochs = 11, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.54      0.83      0.66       117
+   Turn left       0.64      0.31      0.42       117
+
+    accuracy                           0.57       234
+   macro avg       0.59      0.57      0.54       234
+weighted avg       0.59      0.57      0.54       234
+
+This is iteration no: 63 with epochs = 11, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.53      0.76      0.63       117
+   Turn left       0.58      0.33      0.42       117
+
+    accuracy                           0.55       234
+   macro avg       0.56      0.55      0.53       234
+weighted avg       0.56      0.55      0.53       234
+
+This is iteration no: 64 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.55      0.86      0.67       117
+   Turn left       0.69      0.30      0.42       117
+
+    accuracy                           0.58       234
+   macro avg       0.62      0.58      0.54       234
+weighted avg       0.62      0.58      0.55       234
+
+This is iteration no: 65 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.51      0.79      0.62       117
+   Turn left       0.52      0.22      0.31       117
+
+    accuracy                           0.51       234
+   macro avg       0.51      0.51      0.46       234
+weighted avg       0.51      0.51      0.46       234
+
+This is iteration no: 66 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.55      0.74      0.63       117
+   Turn left       0.61      0.41      0.49       117
+
+    accuracy                           0.57       234
+   macro avg       0.58      0.57      0.56       234
+weighted avg       0.58      0.57      0.56       234
+
+This is iteration no: 67 with epochs = 20, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.51      0.80      0.62       117
+   Turn left       0.53      0.22      0.31       117
+
+    accuracy                           0.51       234
+   macro avg       0.52      0.51      0.47       234
+weighted avg       0.52      0.51      0.47       234
+
+This is iteration no: 68 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.60      0.91      0.72       117
+   Turn left       0.80      0.38      0.52       117
+
+    accuracy                           0.65       234
+   macro avg       0.70      0.65      0.62       234
+weighted avg       0.70      0.65      0.62       234
+
+This is iteration no: 69 with epochs = 10, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.55      0.79      0.65       117
+   Turn left       0.62      0.34      0.44       117
+
+    accuracy                           0.57       234
+   macro avg       0.59      0.57      0.55       234
+weighted avg       0.59      0.57      0.55       234
+
+This is iteration no: 70 with epochs = 18, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.54      0.85      0.66       117
+   Turn left       0.65      0.28      0.39       117
+
+    accuracy                           0.56       234
+   macro avg       0.59      0.56      0.53       234
+weighted avg       0.59      0.56      0.53       234
+
+This is iteration no: 71 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.56      0.85      0.67       117
+   Turn left       0.69      0.32      0.43       117
+
+    accuracy                           0.59       234
+   macro avg       0.62      0.59      0.55       234
+weighted avg       0.62      0.59      0.55       234
+
+This is iteration no: 72 with epochs = 14, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.53      0.78      0.63       117
+   Turn left       0.58      0.31      0.40       117
+
+    accuracy                           0.54       234
+   macro avg       0.55      0.54      0.52       234
+weighted avg       0.55      0.54      0.52       234
+
+This is iteration no: 73 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.53      0.92      0.67       117
+   Turn left       0.70      0.18      0.29       117
+
+    accuracy                           0.55       234
+   macro avg       0.61      0.55      0.48       234
+weighted avg       0.61      0.55      0.48       234
+
+This is iteration no: 74 with epochs = 12, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.52      0.91      0.66       117
+   Turn left       0.62      0.15      0.25       117
+
+    accuracy                           0.53       234
+   macro avg       0.57      0.53      0.45       234
+weighted avg       0.57      0.53      0.45       234
+
+This is iteration no: 75 with epochs = 13, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.49      0.82      0.61       117
+   Turn left       0.43      0.14      0.21       117
+
+    accuracy                           0.48       234
+   macro avg       0.46      0.48      0.41       234
+weighted avg       0.46      0.48      0.41       234
+
+This is iteration no: 76 with epochs = 14, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.50      0.79      0.61       117
+   Turn left       0.50      0.21      0.29       117
+
+    accuracy                           0.50       234
+   macro avg       0.50      0.50      0.45       234
+weighted avg       0.50      0.50      0.45       234
+
+This is iteration no: 77 with epochs = 10, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.52      0.90      0.66       117
+   Turn left       0.61      0.16      0.26       117
+
+    accuracy                           0.53       234
+   macro avg       0.57      0.53      0.46       234
+weighted avg       0.57      0.53      0.46       234
+
+This is iteration no: 78 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.48      0.79      0.60       117
+   Turn left       0.40      0.14      0.20       117
+
+    accuracy                           0.47       234
+   macro avg       0.44      0.47      0.40       234
+weighted avg       0.44      0.47      0.40       234
+
+This is iteration no: 79 with epochs = 8, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.51      0.74      0.60       117
+   Turn left       0.52      0.27      0.36       117
+
+    accuracy                           0.51       234
+   macro avg       0.51      0.51      0.48       234
+weighted avg       0.51      0.51      0.48       234
+
+This is iteration no: 80 with epochs = 12, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.49      0.79      0.61       117
+   Turn left       0.45      0.17      0.25       117
+
+    accuracy                           0.48       234
+   macro avg       0.47      0.48      0.43       234
+weighted avg       0.47      0.48      0.43       234
+
+This is iteration no: 81 with epochs = 10, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.50      0.85      0.63       117
+   Turn left       0.50      0.15      0.23       117
+
+    accuracy                           0.50       234
+   macro avg       0.50      0.50      0.43       234
+weighted avg       0.50      0.50      0.43       234
+
+This is iteration no: 82 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.50      0.88      0.64       117
+   Turn left       0.48      0.11      0.18       117
+
+    accuracy                           0.50       234
+   macro avg       0.49      0.50      0.41       234
+weighted avg       0.49      0.50      0.41       234
+
+This is iteration no: 83 with epochs = 10, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.51      0.76      0.61       117
+   Turn left       0.53      0.27      0.36       117
+
+    accuracy                           0.52       234
+   macro avg       0.52      0.52      0.49       234
+weighted avg       0.52      0.52      0.49       234
+
+This is iteration no: 84 with epochs = 11, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.51      0.90      0.65       117
+   Turn left       0.56      0.13      0.21       117
+
+    accuracy                           0.51       234
+   macro avg       0.53      0.51      0.43       234
+weighted avg       0.53      0.51      0.43       234
+
+This is iteration no: 85 with epochs = 10, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.48      0.76      0.59       117
+   Turn left       0.42      0.17      0.24       117
+
+    accuracy                           0.47       234
+   macro avg       0.45      0.47      0.41       234
+weighted avg       0.45      0.47      0.41       234
+
+This is iteration no: 86 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.47      0.69      0.56       117
+   Turn left       0.41      0.21      0.28       117
+
+    accuracy                           0.45       234
+   macro avg       0.44      0.45      0.42       234
+weighted avg       0.44      0.45      0.42       234
+
+This is iteration no: 87 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.47      0.79      0.59       117
+   Turn left       0.37      0.12      0.18       117
+
+    accuracy                           0.46       234
+   macro avg       0.42      0.46      0.39       234
+weighted avg       0.42      0.46      0.39       234
+
+This is iteration no: 88 with epochs = 11, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.49      0.87      0.63       117
+   Turn left       0.44      0.10      0.17       117
+
+    accuracy                           0.49       234
+   macro avg       0.47      0.49      0.40       234
+weighted avg       0.47      0.49      0.40       234
+
+This is iteration no: 89 with epochs = 13, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.49      0.82      0.61       117
+   Turn left       0.45      0.15      0.22       117
+
+    accuracy                           0.48       234
+   macro avg       0.47      0.48      0.42       234
+weighted avg       0.47      0.48      0.42       234
+
+This is iteration no: 90 with epochs = 11, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.48      0.74      0.58       117
+   Turn left       0.43      0.20      0.27       117
+
+    accuracy                           0.47       234
+   macro avg       0.46      0.47      0.43       234
+weighted avg       0.46      0.47      0.43       234
+
+This is iteration no: 91 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.49      0.81      0.61       117
+   Turn left       0.48      0.17      0.25       117
+
+    accuracy                           0.49       234
+   macro avg       0.49      0.49      0.43       234
+weighted avg       0.49      0.49      0.43       234
+
+This is iteration no: 92 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.49      0.79      0.61       117
+   Turn left       0.48      0.20      0.28       117
+
+    accuracy                           0.49       234
+   macro avg       0.49      0.49      0.44       234
+weighted avg       0.49      0.49      0.44       234
+
+This is iteration no: 93 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.49      0.79      0.61       117
+   Turn left       0.48      0.20      0.28       117
+
+    accuracy                           0.49       234
+   macro avg       0.49      0.49      0.44       234
+weighted avg       0.49      0.49      0.44       234
+
+This is iteration no: 94 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.49      0.79      0.60       117
+   Turn left       0.44      0.16      0.24       117
+
+    accuracy                           0.48       234
+   macro avg       0.46      0.48      0.42       234
+weighted avg       0.46      0.48      0.42       234
+
+This is iteration no: 95 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.54      0.79      0.65       117
+   Turn left       0.62      0.33      0.43       117
+
+    accuracy                           0.56       234
+   macro avg       0.58      0.56      0.54       234
+weighted avg       0.58      0.56      0.54       234
+
+This is iteration no: 96 with epochs = 11, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.56      0.85      0.68       117
+   Turn left       0.69      0.34      0.46       117
+
+    accuracy                           0.59       234
+   macro avg       0.63      0.59      0.57       234
+weighted avg       0.63      0.59      0.57       234
+
+This is iteration no: 97 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.50      0.87      0.64       117
+   Turn left       0.50      0.13      0.20       117
+
+    accuracy                           0.50       234
+   macro avg       0.50      0.50      0.42       234
+weighted avg       0.50      0.50      0.42       234
+
+This is iteration no: 98 with epochs = 11, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.49      0.81      0.61       117
+   Turn left       0.45      0.15      0.23       117
+
+    accuracy                           0.48       234
+   macro avg       0.47      0.48      0.42       234
+weighted avg       0.47      0.48      0.42       234
+
+This is iteration no: 99 with epochs = 13, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.50      0.84      0.62       117
+   Turn left       0.49      0.15      0.23       117
+
+    accuracy                           0.50       234
+   macro avg       0.49      0.50      0.43       234
+weighted avg       0.49      0.50      0.43       234
+
+This is iteration no: 0 with epochs = 27, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.35      0.28      0.31       117
+   Turn left       0.40      0.49      0.44       117
+
+    accuracy                           0.38       234
+   macro avg       0.38      0.38      0.38       234
+weighted avg       0.38      0.38      0.38       234
+
+This is iteration no: 1 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.71      0.74      0.73       117
+   Turn left       0.73      0.70      0.72       117
+
+    accuracy                           0.72       234
+   macro avg       0.72      0.72      0.72       234
+weighted avg       0.72      0.72      0.72       234
+
+This is iteration no: 2 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.63      0.77      0.69       117
+   Turn left       0.70      0.55      0.62       117
+
+    accuracy                           0.66       234
+   macro avg       0.67      0.66      0.65       234
+weighted avg       0.67      0.66      0.65       234
+
+This is iteration no: 3 with epochs = 11, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.62      0.79      0.69       117
+   Turn left       0.71      0.52      0.60       117
+
+    accuracy                           0.65       234
+   macro avg       0.67      0.65      0.65       234
+weighted avg       0.67      0.65      0.65       234
+
+This is iteration no: 4 with epochs = 14, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.74      0.69      0.71       117
+   Turn left       0.71      0.75      0.73       117
+
+    accuracy                           0.72       234
+   macro avg       0.72      0.72      0.72       234
+weighted avg       0.72      0.72      0.72       234
+
+This is iteration no: 5 with epochs = 8, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.70      0.87      0.78       117
+   Turn left       0.83      0.62      0.71       117
+
+    accuracy                           0.75       234
+   macro avg       0.76      0.75      0.74       234
+weighted avg       0.76      0.75      0.74       234
+
+This is iteration no: 6 with epochs = 12, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.61      0.57      0.59       117
+   Turn left       0.60      0.64      0.62       117
+
+    accuracy                           0.61       234
+   macro avg       0.61      0.61      0.61       234
+weighted avg       0.61      0.61      0.61       234
+
+This is iteration no: 7 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.45      0.18      0.26       117
+   Turn left       0.49      0.78      0.60       117
+
+    accuracy                           0.48       234
+   macro avg       0.47      0.48      0.43       234
+weighted avg       0.47      0.48      0.43       234
+
+This is iteration no: 8 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.68      0.23      0.34       117
+   Turn left       0.54      0.89      0.67       117
+
+    accuracy                           0.56       234
+   macro avg       0.61      0.56      0.51       234
+weighted avg       0.61      0.56      0.51       234
+
+This is iteration no: 9 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.70      0.38      0.50       117
+   Turn left       0.58      0.84      0.68       117
+
+    accuracy                           0.61       234
+   macro avg       0.64      0.61      0.59       234
+weighted avg       0.64      0.61      0.59       234
+
+This is iteration no: 10 with epochs = 10, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.25      0.08      0.12       117
+   Turn left       0.45      0.77      0.57       117
+
+    accuracy                           0.42       234
+   macro avg       0.35      0.42      0.34       234
+weighted avg       0.35      0.42      0.34       234
+
+This is iteration no: 11 with epochs = 13, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.64      0.25      0.36       117
+   Turn left       0.53      0.86      0.66       117
+
+    accuracy                           0.56       234
+   macro avg       0.59      0.56      0.51       234
+weighted avg       0.59      0.56      0.51       234
+
+This is iteration no: 12 with epochs = 16, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.58      0.59      0.58       117
+   Turn left       0.58      0.57      0.58       117
+
+    accuracy                           0.58       234
+   macro avg       0.58      0.58      0.58       234
+weighted avg       0.58      0.58      0.58       234
+
+This is iteration no: 13 with epochs = 8, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.69      0.38      0.49       117
+   Turn left       0.57      0.83      0.68       117
+
+    accuracy                           0.61       234
+   macro avg       0.63      0.61      0.59       234
+weighted avg       0.63      0.61      0.59       234
+
+This is iteration no: 14 with epochs = 17, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.29      0.15      0.19       117
+   Turn left       0.43      0.65      0.52       117
+
+    accuracy                           0.40       234
+   macro avg       0.36      0.40      0.36       234
+weighted avg       0.36      0.40      0.36       234
+
+This is iteration no: 15 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.39      0.15      0.22       117
+   Turn left       0.47      0.76      0.58       117
+
+    accuracy                           0.46       234
+   macro avg       0.43      0.46      0.40       234
+weighted avg       0.43      0.46      0.40       234
+
+This is iteration no: 16 with epochs = 15, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.81      0.26      0.39       117
+   Turn left       0.56      0.94      0.70       117
+
+    accuracy                           0.60       234
+   macro avg       0.68      0.60      0.55       234
+weighted avg       0.68      0.60      0.55       234
+
+This is iteration no: 17 with epochs = 16, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.68      0.54      0.60       117
+   Turn left       0.62      0.74      0.67       117
+
+    accuracy                           0.64       234
+   macro avg       0.65      0.64      0.64       234
+weighted avg       0.65      0.64      0.64       234
+
+This is iteration no: 18 with epochs = 8, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.66      0.49      0.56       117
+   Turn left       0.59      0.74      0.66       117
+
+    accuracy                           0.62       234
+   macro avg       0.62      0.62      0.61       234
+weighted avg       0.62      0.62      0.61       234
+
+This is iteration no: 19 with epochs = 22, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.70      0.45      0.55       117
+   Turn left       0.59      0.80      0.68       117
+
+    accuracy                           0.63       234
+   macro avg       0.65      0.63      0.62       234
+weighted avg       0.65      0.63      0.62       234
+
+This is iteration no: 20 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.55      0.27      0.37       117
+   Turn left       0.52      0.78      0.62       117
+
+    accuracy                           0.53       234
+   macro avg       0.53      0.53      0.49       234
+weighted avg       0.53      0.53      0.49       234
+
+This is iteration no: 21 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.66      0.35      0.46       117
+   Turn left       0.56      0.82      0.66       117
+
+    accuracy                           0.59       234
+   macro avg       0.61      0.59      0.56       234
+weighted avg       0.61      0.59      0.56       234
+
+This is iteration no: 22 with epochs = 8, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.62      0.43      0.51       117
+   Turn left       0.56      0.74      0.64       117
+
+    accuracy                           0.58       234
+   macro avg       0.59      0.58      0.57       234
+weighted avg       0.59      0.58      0.57       234
+
+This is iteration no: 23 with epochs = 12, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.65      0.78      0.71       117
+   Turn left       0.72      0.57      0.64       117
+
+    accuracy                           0.68       234
+   macro avg       0.68      0.68      0.67       234
+weighted avg       0.68      0.68      0.67       234
+
+This is iteration no: 24 with epochs = 18, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.89      0.26      0.41       117
+   Turn left       0.57      0.97      0.72       117
+
+    accuracy                           0.62       234
+   macro avg       0.73      0.62      0.56       234
+weighted avg       0.73      0.62      0.56       234
+
+This is iteration no: 25 with epochs = 11, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.59      0.45      0.51       117
+   Turn left       0.56      0.68      0.61       117
+
+    accuracy                           0.57       234
+   macro avg       0.57      0.57      0.56       234
+weighted avg       0.57      0.57      0.56       234
+
+This is iteration no: 26 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.61      0.66      0.63       117
+   Turn left       0.63      0.57      0.60       117
+
+    accuracy                           0.62       234
+   macro avg       0.62      0.62      0.61       234
+weighted avg       0.62      0.62      0.61       234
+
+This is iteration no: 27 with epochs = 13, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.70      0.44      0.54       117
+   Turn left       0.59      0.81      0.68       117
+
+    accuracy                           0.62       234
+   macro avg       0.64      0.62      0.61       234
+weighted avg       0.64      0.62      0.61       234
+
+This is iteration no: 28 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.94      0.29      0.44       117
+   Turn left       0.58      0.98      0.73       117
+
+    accuracy                           0.64       234
+   macro avg       0.76      0.64      0.59       234
+weighted avg       0.76      0.64      0.59       234
+
+This is iteration no: 29 with epochs = 16, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.63      0.50      0.56       117
+   Turn left       0.59      0.71      0.64       117
+
+    accuracy                           0.61       234
+   macro avg       0.61      0.61      0.60       234
+weighted avg       0.61      0.61      0.60       234
+
+This is iteration no: 30 with epochs = 16, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.53      0.33      0.41       117
+   Turn left       0.51      0.70      0.59       117
+
+    accuracy                           0.52       234
+   macro avg       0.52      0.52      0.50       234
+weighted avg       0.52      0.52      0.50       234
+
+This is iteration no: 31 with epochs = 12, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.59      0.43      0.50       117
+   Turn left       0.55      0.70      0.62       117
+
+    accuracy                           0.56       234
+   macro avg       0.57      0.56      0.56       234
+weighted avg       0.57      0.56      0.56       234
+
+This is iteration no: 32 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.56      0.34      0.43       117
+   Turn left       0.53      0.74      0.61       117
+
+    accuracy                           0.54       234
+   macro avg       0.55      0.54      0.52       234
+weighted avg       0.55      0.54      0.52       234
+
+This is iteration no: 33 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.90      0.23      0.37       117
+   Turn left       0.56      0.97      0.71       117
+
+    accuracy                           0.60       234
+   macro avg       0.73      0.60      0.54       234
+weighted avg       0.73      0.60      0.54       234
+
+This is iteration no: 34 with epochs = 11, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.63      0.25      0.36       117
+   Turn left       0.53      0.85      0.66       117
+
+    accuracy                           0.55       234
+   macro avg       0.58      0.55      0.51       234
+weighted avg       0.58      0.55      0.51       234
+
+This is iteration no: 35 with epochs = 10, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.91      0.37      0.52       117
+   Turn left       0.60      0.97      0.74       117
+
+    accuracy                           0.67       234
+   macro avg       0.76      0.67      0.63       234
+weighted avg       0.76      0.67      0.63       234
+
+This is iteration no: 36 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.69      0.32      0.44       117
+   Turn left       0.56      0.85      0.68       117
+
+    accuracy                           0.59       234
+   macro avg       0.62      0.59      0.56       234
+weighted avg       0.62      0.59      0.56       234
+
+This is iteration no: 37 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.46      0.28      0.35       117
+   Turn left       0.48      0.67      0.56       117
+
+    accuracy                           0.47       234
+   macro avg       0.47      0.47      0.45       234
+weighted avg       0.47      0.47      0.45       234
+
+This is iteration no: 38 with epochs = 11, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.58      0.33      0.42       117
+   Turn left       0.53      0.76      0.63       117
+
+    accuracy                           0.55       234
+   macro avg       0.56      0.55      0.53       234
+weighted avg       0.56      0.55      0.53       234
+
+This is iteration no: 39 with epochs = 12, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.73      0.41      0.52       117
+   Turn left       0.59      0.85      0.69       117
+
+    accuracy                           0.63       234
+   macro avg       0.66      0.63      0.61       234
+weighted avg       0.66      0.63      0.61       234
+
+This is iteration no: 40 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.64      0.56      0.59       117
+   Turn left       0.61      0.68      0.64       117
+
+    accuracy                           0.62       234
+   macro avg       0.62      0.62      0.62       234
+weighted avg       0.62      0.62      0.62       234
+
+This is iteration no: 41 with epochs = 8, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.79      0.45      0.58       117
+   Turn left       0.62      0.88      0.73       117
+
+    accuracy                           0.67       234
+   macro avg       0.70      0.67      0.65       234
+weighted avg       0.70      0.67      0.65       234
+
+This is iteration no: 42 with epochs = 11, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.62      0.41      0.49       117
+   Turn left       0.56      0.74      0.64       117
+
+    accuracy                           0.58       234
+   macro avg       0.59      0.58      0.56       234
+weighted avg       0.59      0.58      0.56       234
+
+This is iteration no: 43 with epochs = 14, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.56      0.30      0.39       117
+   Turn left       0.52      0.77      0.62       117
+
+    accuracy                           0.53       234
+   macro avg       0.54      0.53      0.51       234
+weighted avg       0.54      0.53      0.51       234
+
+This is iteration no: 44 with epochs = 15, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.57      0.44      0.50       117
+   Turn left       0.54      0.68      0.60       117
+
+    accuracy                           0.56       234
+   macro avg       0.56      0.56      0.55       234
+weighted avg       0.56      0.56      0.55       234
+
+This is iteration no: 45 with epochs = 16, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.73      0.30      0.42       117
+   Turn left       0.56      0.89      0.69       117
+
+    accuracy                           0.59       234
+   macro avg       0.64      0.59      0.56       234
+weighted avg       0.64      0.59      0.56       234
+
+This is iteration no: 46 with epochs = 11, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.70      0.52      0.60       117
+   Turn left       0.62      0.78      0.69       117
+
+    accuracy                           0.65       234
+   macro avg       0.66      0.65      0.64       234
+weighted avg       0.66      0.65      0.64       234
+
+This is iteration no: 47 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.75      0.39      0.52       117
+   Turn left       0.59      0.87      0.70       117
+
+    accuracy                           0.63       234
+   macro avg       0.67      0.63      0.61       234
+weighted avg       0.67      0.63      0.61       234
+
+This is iteration no: 48 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.65      0.30      0.41       117
+   Turn left       0.54      0.84      0.66       117
+
+    accuracy                           0.57       234
+   macro avg       0.60      0.57      0.53       234
+weighted avg       0.60      0.57      0.53       234
+
+This is iteration no: 49 with epochs = 8, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.67      0.37      0.48       117
+   Turn left       0.56      0.82      0.67       117
+
+    accuracy                           0.59       234
+   macro avg       0.62      0.59      0.57       234
+weighted avg       0.62      0.59      0.57       234
+
+This is iteration no: 50 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.53      0.41      0.46       117
+   Turn left       0.52      0.63      0.57       117
+
+    accuracy                           0.52       234
+   macro avg       0.52      0.52      0.52       234
+weighted avg       0.52      0.52      0.52       234
+
+This is iteration no: 51 with epochs = 13, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.63      0.43      0.51       117
+   Turn left       0.57      0.75      0.65       117
+
+    accuracy                           0.59       234
+   macro avg       0.60      0.59      0.58       234
+weighted avg       0.60      0.59      0.58       234
+
+This is iteration no: 52 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.63      0.38      0.47       117
+   Turn left       0.55      0.78      0.65       117
+
+    accuracy                           0.58       234
+   macro avg       0.59      0.58      0.56       234
+weighted avg       0.59      0.58      0.56       234
+
+This is iteration no: 53 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.56      0.42      0.48       117
+   Turn left       0.53      0.67      0.59       117
+
+    accuracy                           0.54       234
+   macro avg       0.55      0.54      0.54       234
+weighted avg       0.55      0.54      0.54       234
+
+This is iteration no: 54 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.57      0.47      0.51       117
+   Turn left       0.55      0.64      0.59       117
+
+    accuracy                           0.56       234
+   macro avg       0.56      0.56      0.55       234
+weighted avg       0.56      0.56      0.55       234
+
+This is iteration no: 55 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.62      0.31      0.41       117
+   Turn left       0.54      0.81      0.65       117
+
+    accuracy                           0.56       234
+   macro avg       0.58      0.56      0.53       234
+weighted avg       0.58      0.56      0.53       234
+
+This is iteration no: 56 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.67      0.30      0.41       117
+   Turn left       0.55      0.85      0.67       117
+
+    accuracy                           0.58       234
+   macro avg       0.61      0.58      0.54       234
+weighted avg       0.61      0.58      0.54       234
+
+This is iteration no: 57 with epochs = 10, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.69      0.41      0.51       117
+   Turn left       0.58      0.81      0.68       117
+
+    accuracy                           0.61       234
+   macro avg       0.63      0.61      0.59       234
+weighted avg       0.63      0.61      0.59       234
+
+This is iteration no: 58 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.80      0.44      0.56       117
+   Turn left       0.61      0.89      0.72       117
+
+    accuracy                           0.66       234
+   macro avg       0.70      0.66      0.64       234
+weighted avg       0.70      0.66      0.64       234
+
+This is iteration no: 59 with epochs = 13, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.63      0.26      0.37       117
+   Turn left       0.54      0.85      0.66       117
+
+    accuracy                           0.56       234
+   macro avg       0.58      0.56      0.51       234
+weighted avg       0.58      0.56      0.51       234
+
+This is iteration no: 60 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.87      0.39      0.54       117
+   Turn left       0.61      0.94      0.74       117
+
+    accuracy                           0.67       234
+   macro avg       0.74      0.67      0.64       234
+weighted avg       0.74      0.67      0.64       234
+
+This is iteration no: 61 with epochs = 16, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.84      0.32      0.46       117
+   Turn left       0.58      0.94      0.72       117
+
+    accuracy                           0.63       234
+   macro avg       0.71      0.63      0.59       234
+weighted avg       0.71      0.63      0.59       234
+
+This is iteration no: 62 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.78      0.25      0.38       117
+   Turn left       0.55      0.93      0.69       117
+
+    accuracy                           0.59       234
+   macro avg       0.67      0.59      0.54       234
+weighted avg       0.67      0.59      0.54       234
+
+This is iteration no: 63 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.86      0.26      0.39       117
+   Turn left       0.56      0.96      0.71       117
+
+    accuracy                           0.61       234
+   macro avg       0.71      0.61      0.55       234
+weighted avg       0.71      0.61      0.55       234
+
+This is iteration no: 64 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.84      0.35      0.49       117
+   Turn left       0.59      0.93      0.72       117
+
+    accuracy                           0.64       234
+   macro avg       0.71      0.64      0.61       234
+weighted avg       0.71      0.64      0.61       234
+
+This is iteration no: 65 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.57      0.34      0.43       117
+   Turn left       0.53      0.74      0.62       117
+
+    accuracy                           0.54       234
+   macro avg       0.55      0.54      0.52       234
+weighted avg       0.55      0.54      0.52       234
+
+This is iteration no: 66 with epochs = 19, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.82      0.28      0.42       117
+   Turn left       0.57      0.94      0.71       117
+
+    accuracy                           0.61       234
+   macro avg       0.70      0.61      0.56       234
+weighted avg       0.70      0.61      0.56       234
+
+This is iteration no: 67 with epochs = 15, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.89      0.29      0.44       117
+   Turn left       0.58      0.97      0.72       117
+
+    accuracy                           0.63       234
+   macro avg       0.74      0.63      0.58       234
+weighted avg       0.74      0.63      0.58       234
+
+This is iteration no: 68 with epochs = 8, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.59      0.55      0.57       117
+   Turn left       0.58      0.62      0.60       117
+
+    accuracy                           0.59       234
+   macro avg       0.59      0.59      0.58       234
+weighted avg       0.59      0.59      0.58       234
+
+This is iteration no: 69 with epochs = 13, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.82      0.50      0.62       117
+   Turn left       0.64      0.89      0.75       117
+
+    accuracy                           0.70       234
+   macro avg       0.73      0.70      0.68       234
+weighted avg       0.73      0.70      0.68       234
+
+This is iteration no: 70 with epochs = 11, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.82      0.27      0.41       117
+   Turn left       0.56      0.94      0.71       117
+
+    accuracy                           0.61       234
+   macro avg       0.69      0.61      0.56       234
+weighted avg       0.69      0.61      0.56       234
+
+This is iteration no: 71 with epochs = 16, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.54      0.32      0.40       117
+   Turn left       0.52      0.73      0.60       117
+
+    accuracy                           0.52       234
+   macro avg       0.53      0.52      0.50       234
+weighted avg       0.53      0.52      0.50       234
+
+This is iteration no: 72 with epochs = 12, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.72      0.26      0.39       117
+   Turn left       0.55      0.90      0.68       117
+
+    accuracy                           0.58       234
+   macro avg       0.64      0.58      0.53       234
+weighted avg       0.64      0.58      0.53       234
+
+This is iteration no: 73 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.63      0.23      0.34       117
+   Turn left       0.53      0.86      0.66       117
+
+    accuracy                           0.55       234
+   macro avg       0.58      0.55      0.50       234
+weighted avg       0.58      0.55      0.50       234
+
+This is iteration no: 74 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.54      0.32      0.40       117
+   Turn left       0.52      0.73      0.60       117
+
+    accuracy                           0.52       234
+   macro avg       0.53      0.52      0.50       234
+weighted avg       0.53      0.52      0.50       234
+
+This is iteration no: 75 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.73      0.44      0.55       117
+   Turn left       0.60      0.84      0.70       117
+
+    accuracy                           0.64       234
+   macro avg       0.67      0.64      0.63       234
+weighted avg       0.67      0.64      0.63       234
+
+This is iteration no: 76 with epochs = 10, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.64      0.51      0.57       117
+   Turn left       0.59      0.71      0.65       117
+
+    accuracy                           0.61       234
+   macro avg       0.62      0.61      0.61       234
+weighted avg       0.62      0.61      0.61       234
+
+This is iteration no: 77 with epochs = 17, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.53      0.41      0.46       117
+   Turn left       0.52      0.64      0.57       117
+
+    accuracy                           0.53       234
+   macro avg       0.53      0.53      0.52       234
+weighted avg       0.53      0.53      0.52       234
+
+This is iteration no: 78 with epochs = 11, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.53      0.41      0.46       117
+   Turn left       0.52      0.63      0.57       117
+
+    accuracy                           0.52       234
+   macro avg       0.52      0.52      0.52       234
+weighted avg       0.52      0.52      0.52       234
+
+This is iteration no: 79 with epochs = 13, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.57      0.37      0.45       117
+   Turn left       0.53      0.72      0.61       117
+
+    accuracy                           0.54       234
+   macro avg       0.55      0.54      0.53       234
+weighted avg       0.55      0.54      0.53       234
+
+This is iteration no: 80 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.53      0.36      0.43       117
+   Turn left       0.51      0.68      0.58       117
+
+    accuracy                           0.52       234
+   macro avg       0.52      0.52      0.50       234
+weighted avg       0.52      0.52      0.50       234
+
+This is iteration no: 81 with epochs = 10, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.59      0.31      0.40       117
+   Turn left       0.53      0.79      0.63       117
+
+    accuracy                           0.55       234
+   macro avg       0.56      0.55      0.52       234
+weighted avg       0.56      0.55      0.52       234
+
+This is iteration no: 82 with epochs = 10, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.84      0.35      0.49       117
+   Turn left       0.59      0.93      0.72       117
+
+    accuracy                           0.64       234
+   macro avg       0.71      0.64      0.61       234
+weighted avg       0.71      0.64      0.61       234
+
+This is iteration no: 83 with epochs = 8, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.62      0.45      0.52       117
+   Turn left       0.57      0.72      0.63       117
+
+    accuracy                           0.59       234
+   macro avg       0.59      0.59      0.58       234
+weighted avg       0.59      0.59      0.58       234
+
+This is iteration no: 84 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.63      0.48      0.54       117
+   Turn left       0.58      0.72      0.64       117
+
+    accuracy                           0.60       234
+   macro avg       0.60      0.60      0.59       234
+weighted avg       0.60      0.60      0.59       234
+
+This is iteration no: 85 with epochs = 10, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.66      0.37      0.47       117
+   Turn left       0.56      0.81      0.66       117
+
+    accuracy                           0.59       234
+   macro avg       0.61      0.59      0.57       234
+weighted avg       0.61      0.59      0.57       234
+
+This is iteration no: 86 with epochs = 10, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.83      0.38      0.52       117
+   Turn left       0.60      0.92      0.72       117
+
+    accuracy                           0.65       234
+   macro avg       0.71      0.65      0.62       234
+weighted avg       0.71      0.65      0.62       234
+
+This is iteration no: 87 with epochs = 8, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.70      0.39      0.50       117
+   Turn left       0.58      0.83      0.68       117
+
+    accuracy                           0.61       234
+   macro avg       0.64      0.61      0.59       234
+weighted avg       0.64      0.61      0.59       234
+
+This is iteration no: 88 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.56      0.35      0.43       117
+   Turn left       0.53      0.73      0.61       117
+
+    accuracy                           0.54       234
+   macro avg       0.54      0.54      0.52       234
+weighted avg       0.54      0.54      0.52       234
+
+This is iteration no: 89 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.61      0.32      0.42       117
+   Turn left       0.54      0.79      0.64       117
+
+    accuracy                           0.56       234
+   macro avg       0.57      0.56      0.53       234
+weighted avg       0.57      0.56      0.53       234
+
+This is iteration no: 90 with epochs = 8, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.68      0.44      0.53       117
+   Turn left       0.58      0.79      0.67       117
+
+    accuracy                           0.62       234
+   macro avg       0.63      0.62      0.60       234
+weighted avg       0.63      0.62      0.60       234
+
+This is iteration no: 91 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.61      0.38      0.47       117
+   Turn left       0.55      0.75      0.64       117
+
+    accuracy                           0.57       234
+   macro avg       0.58      0.57      0.55       234
+weighted avg       0.58      0.57      0.55       234
+
+This is iteration no: 92 with epochs = 13, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.60      0.36      0.45       117
+   Turn left       0.54      0.76      0.63       117
+
+    accuracy                           0.56       234
+   macro avg       0.57      0.56      0.54       234
+weighted avg       0.57      0.56      0.54       234
+
+This is iteration no: 93 with epochs = 7, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.72      0.36      0.48       117
+   Turn left       0.57      0.86      0.69       117
+
+    accuracy                           0.61       234
+   macro avg       0.65      0.61      0.58       234
+weighted avg       0.65      0.61      0.58       234
+
+This is iteration no: 94 with epochs = 9, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.83      0.34      0.48       117
+   Turn left       0.59      0.93      0.72       117
+
+    accuracy                           0.64       234
+   macro avg       0.71      0.64      0.60       234
+weighted avg       0.71      0.64      0.60       234
+
+This is iteration no: 95 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.64      0.44      0.53       117
+   Turn left       0.58      0.75      0.65       117
+
+    accuracy                           0.60       234
+   macro avg       0.61      0.60      0.59       234
+weighted avg       0.61      0.60      0.59       234
+
+This is iteration no: 96 with epochs = 16, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.83      0.38      0.53       117
+   Turn left       0.60      0.92      0.73       117
+
+    accuracy                           0.65       234
+   macro avg       0.72      0.65      0.63       234
+weighted avg       0.72      0.65      0.63       234
+
+This is iteration no: 97 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.76      0.38      0.51       117
+   Turn left       0.59      0.88      0.71       117
+
+    accuracy                           0.63       234
+   macro avg       0.68      0.63      0.61       234
+weighted avg       0.68      0.63      0.61       234
+
+This is iteration no: 98 with epochs = 6, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.79      0.43      0.56       117
+   Turn left       0.61      0.89      0.72       117
+
+    accuracy                           0.66       234
+   macro avg       0.70      0.66      0.64       234
+weighted avg       0.70      0.66      0.64       234
+
+This is iteration no: 99 with epochs = 10, batch size = 2, and learning rate = 1.0 
+              precision    recall  f1-score   support
+
+  Turn right       0.81      0.44      0.57       117
+   Turn left       0.61      0.90      0.73       117
+
+    accuracy                           0.67       234
+   macro avg       0.71      0.67      0.65       234
+weighted avg       0.71      0.67      0.65       234
+

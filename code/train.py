@@ -6,6 +6,7 @@ matplotlib.use("Agg")
 # import packages
 import argparse
 from arguments import Args
+from datetime import datetime
 import numpy as np
 from neural_net import Neural_Net
 import os
@@ -15,6 +16,10 @@ from skimage import io
 from skimage import transform
 from sklearn.metrics import classification_report
 from sklearn.metrics import f1_score
+import tensorflow as tf
+from tensorboard.plugins.hparams import api as hp
+from tensorflow.keras.callbacks import EarlyStopping
+from tensorflow.keras.callbacks import TensorBoard
 from tensorflow.keras.losses import MSE
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
@@ -31,20 +36,22 @@ class Train_Net:
 		self.net = Neural_Net()
 
 		# initialise parameters
-		self.number_of_epochs = 20
-		self.initial_learning_rate = 1e-0
-		self.batch_size = 32
+		self.number_of_epochs = 200
+		self.initial_learning_rate = 1e-2
+		self.batch_size = 2
+
+		# best combo so far: 32,64, 0.01
 
 		# prepare the data and the model
 		self.prepare_data()
 
-		for i in range(3):
+		for i in range(100):
 			
 			# train the model
 			train = self.train()
 
 			# evaluate the model
-			self.evaluate(i)
+			self.evaluate(i, train)
 
 			# save data in a plot
 			self.save_data(train)
@@ -159,23 +166,27 @@ class Train_Net:
 		self.model = self.net.create_net(w=32, h=32, d=3, signs=self.num_signs)
 		self.model.compile(loss="categorical_crossentropy", optimizer=opt, metrics=["accuracy"])
 
-
 	def train(self):
 		# train the network
 		print("[INFO] training network...")
 
+		log_dir = "../logs/fit_" + str(self.number_of_epochs) + "_" + str(self.batch_size) + "_" + str(self.initial_learning_rate) +"/" + datetime.now().strftime("%Y%m%d-%H%M%S")
+		tensorboard = TensorBoard(log_dir=log_dir, histogram_freq=1)
+
 		augment = self.get_augmentation()
+		callback = EarlyStopping(monitor='loss', patience=5)
 		train = self.model.fit(
 			augment.flow(self.train_X, self.train_Y, batch_size=self.batch_size),
 			validation_data=(self.test_X, self.test_Y),
 			steps_per_epoch=self.train_X.shape[0] // self.batch_size,
-			epochs=self.number_of_epochs,
+			epochs=self.number_of_epochs, 
+			callbacks=[callback, tensorboard],
 			class_weight=self.total_weight_class,
 			verbose=1)
 
 		return train
 
-	def evaluate(self, i):
+	def evaluate(self, i, train):
 
 		# evaluate the network
 		print("[INFO] evaluating network...")
@@ -184,12 +195,13 @@ class Train_Net:
 		predictions = self.model.predict(self.test_X, batch_size=self.batch_size)
 		self.report = classification_report(self.test_Y.argmax(axis=1), predictions.argmax(axis=1), target_names=sign_names)
 		print(self.report)
-		self.write_report(self.report, i)
+		self.write_report(self.report, i, train)
 
-	def write_report(self, report, i):
+	def write_report(self, report, i, train):
 
+		self.epochs_run = len(train.history['loss'])
 		file = open("../reports/test_report_" + str(self.number_of_epochs) + "_" + str(self.batch_size) + "_" + str(self.initial_learning_rate) +".txt", "a")
-		file.write("This is iteration no: " + str(i) + " with epochs = " + str(self.number_of_epochs) + ", batch size = " + str(self.batch_size) + ", and learning rate = " + str(self.initial_learning_rate) +" \n")
+		file.write("This is iteration no: " + str(i) + " with epochs = " + str(self.epochs_run) + ", batch size = " + str(self.batch_size) + ", and learning rate = " + str(self.initial_learning_rate) +" \n")
 		file.write(report)
 		file.write("\n")
 		file.close()
@@ -203,7 +215,7 @@ class Train_Net:
 		self.model.save(self.args["model"])
 
 		# plot the training loss and accuracy
-		num = np.arange(0, self.number_of_epochs)
+		num = np.arange(0, self.epochs_run)
 		plt.style.use("ggplot")
 		plt.figure()
 
