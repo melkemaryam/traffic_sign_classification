@@ -24,9 +24,23 @@ There are 5 arguments that need to be added when runing the code. The `class Arg
 
 ### 4. Run line in shell
 
+Depending on which database you want to train with, you can choose between only two traffic signs (turn right and turn left) or you can choose all 43. 
+
+The default is set to only two traffic signs, which can be identified by the `_rl` addition. If you want to train the model with all 43 traffic signs, replace `_rl` with `_all`.
+
+Default command for only two traffic signs:
 ```
-(traffic_signs)$ python main.py --model ../output/neural_net.model --dataset ../gtsrb-german-traffic-sign --images ../gtsrb-german-traffic-sign/Test --predictions ../predictions --plot ../output/plot.png
+(traffic_signs)$ python main.py --model ../output/neural_net.model --dataset ../gtsrb_rl --images ../gtsrb_rl/Test --predictions ../predictions_rl --plot ../output/plot.png
 ```
+
+Command for all 43 traffic signs:
+```
+(traffic_signs)$ python main.py --model ../output/neural_net.model --dataset ../gtsrb_all --images ../gtsrb_all/Test --predictions ../predictions_all --plot ../output/plot.png
+```
+
+In case you want to train with the entire dataset, make sure to also change the paths within the `train.py` and `predict.py` files.
+
+
 ## Results
 
 Let the code run through all epochs of the training process. The output in the shell will indicate the current state of the programme.

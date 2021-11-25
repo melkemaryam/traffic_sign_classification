@@ -44,7 +44,7 @@ class Predict_Net:
 		paths_to_image = list(paths.list_images(self.args["images"]))
 		random.shuffle(paths_to_image)
 
-		# choose only 24 images
+		# choose only 30 images
 		paths_to_image = paths_to_image[:31]
 
 		# loop over the image paths
@@ -70,5 +70,6 @@ class Predict_Net:
 			cv2.putText(image, label, (5, 15), cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 0, 255), 2)
 
 			# save the image to disk
-			p = os.path.sep.join([self.args["predictions"], "{}.png".format(i)])
+			#CHANGE: _rl = turn right/left only, _all = all signs
+			p = os.path.sep.join([self.args["predictions_all"], "{}.png".format(i)])
 			cv2.imwrite(p, image)

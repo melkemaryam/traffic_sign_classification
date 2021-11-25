@@ -1,0 +1,153 @@
+This is iteration no: 0 with epochs = 25, batch size = 2, and learning rate = 0.01 
+                                                    precision    recall  f1-score   support
+
+                              Speed limit (20km/h)       0.00      0.00      0.00        60
+                              Speed limit (30km/h)       0.00      0.00      0.00       720
+                              Speed limit (50km/h)       0.26      0.03      0.05       750
+                              Speed limit (60km/h)       0.00      0.00      0.00       450
+                              Speed limit (70km/h)       0.13      0.16      0.15       660
+                              Speed limit (80km/h)       0.00      0.00      0.00       630
+                       End of speed limit (80km/h)       0.00      0.00      0.00       150
+                             Speed limit (100km/h)       0.50      0.00      0.00       450
+                             Speed limit (120km/h)       0.00      0.00      0.00       450
+                                        No passing       0.10      0.13      0.11       480
+      No passing for vehicles over 3.5 metric tons       0.18      0.09      0.12       660
+             Right-of-way at the next intersection       0.00      0.00      0.00       420
+                                     Priority road       0.50      0.00      0.00       690
+                                             Yield       0.33      0.27      0.30       720
+                                              Stop       0.14      0.85      0.24       270
+                                       No vehicles       0.00      0.00      0.00       210
+          Vehicles over 3.5 metric tons prohibited       0.11      0.15      0.13       150
+                                          No entry       0.03      0.05      0.03       360
+                                   General caution       0.00      0.00      0.00       390
+                       Dangerous curve to the left       0.01      0.15      0.02        60
+                      Dangerous curve to the right       0.00      0.00      0.00        90
+                                      Double curve       0.02      0.09      0.03        90
+                                        Bumpy road       0.00      0.00      0.00       120
+                                     Slippery road       0.14      0.01      0.01       150
+                         Road narrows on the right       0.02      0.40      0.04        90
+                                         Road work       0.00      0.00      0.00       480
+                                   Traffic signals       0.01      0.01      0.01       180
+                                       Pedestrians       0.01      0.03      0.01        60
+                                 Children crossing       0.00      0.00      0.00       150
+                                 Bicycles crossing       0.06      0.02      0.03        90
+                                Beware of ice/snow       0.03      0.20      0.06       150
+                             Wild animals crossing       0.04      0.17      0.07       270
+               End of all speed and passing limits       0.00      0.00      0.00        60
+                                  Turn right ahead       0.00      0.00      0.00       210
+                                   Turn left ahead       0.07      0.23      0.10       120
+                                        Ahead only       0.14      0.07      0.10       390
+                              Go straight or right       0.09      0.02      0.03       120
+                               Go straight or left       0.00      0.00      0.00        60
+                                        Keep right       0.16      0.03      0.05       690
+                                         Keep left       0.04      0.34      0.07        90
+                              Roundabout mandatory       0.04      0.02      0.03        90
+                                 End of no passing       0.04      0.47      0.08        60
+End of no passing by vehicles over 3.5 metric tons       0.00      0.00      0.00        90
+
+                                          accuracy                           0.08     12630
+                                         macro avg       0.07      0.09      0.04     12630
+                                      weighted avg       0.12      0.08      0.06     12630
+
+This is iteration no: 1 with epochs = 32, batch size = 2, and learning rate = 0.01 
+                                                    precision    recall  f1-score   support
+
+                              Speed limit (20km/h)       0.01      0.07      0.02        60
+                              Speed limit (30km/h)       0.00      0.00      0.00       720
+                              Speed limit (50km/h)       0.16      0.14      0.15       750
+                              Speed limit (60km/h)       0.00      0.00      0.00       450
+                              Speed limit (70km/h)       0.18      0.09      0.12       660
+                              Speed limit (80km/h)       0.00      0.00      0.00       630
+                       End of speed limit (80km/h)       0.02      0.01      0.01       150
+                             Speed limit (100km/h)       0.00      0.00      0.00       450
+                             Speed limit (120km/h)       0.00      0.00      0.00       450
+                                        No passing       0.17      0.12      0.14       480
+      No passing for vehicles over 3.5 metric tons       0.26      0.20      0.22       660
+             Right-of-way at the next intersection       0.01      0.00      0.00       420
+                                     Priority road       0.71      0.03      0.07       690
+                                             Yield       0.58      0.27      0.37       720
+                                              Stop       0.10      0.95      0.18       270
+                                       No vehicles       0.00      0.00      0.00       210
+          Vehicles over 3.5 metric tons prohibited       0.08      0.23      0.12       150
+                                          No entry       0.04      0.06      0.04       360
+                                   General caution       0.00      0.00      0.00       390
+                       Dangerous curve to the left       0.03      0.30      0.05        60
+                      Dangerous curve to the right       0.00      0.00      0.00        90
+                                      Double curve       0.02      0.16      0.04        90
+                                        Bumpy road       0.00      0.00      0.00       120
+                                     Slippery road       0.00      0.00      0.00       150
+                         Road narrows on the right       0.03      0.31      0.05        90
+                                         Road work       0.00      0.00      0.00       480
+                                   Traffic signals       0.00      0.00      0.00       180
+                                       Pedestrians       0.01      0.02      0.01        60
+                                 Children crossing       0.02      0.05      0.03       150
+                                 Bicycles crossing       0.00      0.00      0.00        90
+                                Beware of ice/snow       0.00      0.00      0.00       150
+                             Wild animals crossing       0.04      0.03      0.03       270
+               End of all speed and passing limits       0.00      0.00      0.00        60
+                                  Turn right ahead       0.00      0.00      0.00       210
+                                   Turn left ahead       0.03      0.16      0.05       120
+                                        Ahead only       0.16      0.13      0.14       390
+                              Go straight or right       0.11      0.12      0.11       120
+                               Go straight or left       0.00      0.00      0.00        60
+                                        Keep right       0.27      0.05      0.08       690
+                                         Keep left       0.04      0.23      0.07        90
+                              Roundabout mandatory       0.00      0.00      0.00        90
+                                 End of no passing       0.06      0.55      0.11        60
+End of no passing by vehicles over 3.5 metric tons       0.00      0.00      0.00        90
+
+                                          accuracy                           0.09     12630
+                                         macro avg       0.07      0.10      0.05     12630
+                                      weighted avg       0.14      0.09      0.08     12630
+
+This is iteration no: 2 with epochs = 8, batch size = 2, and learning rate = 0.01 
+                                                    precision    recall  f1-score   support
+
+                              Speed limit (20km/h)       0.01      0.02      0.01        60
+                              Speed limit (30km/h)       0.00      0.00      0.00       720
+                              Speed limit (50km/h)       0.20      0.17      0.19       750
+                              Speed limit (60km/h)       0.00      0.00      0.00       450
+                              Speed limit (70km/h)       0.18      0.12      0.14       660
+                              Speed limit (80km/h)       0.00      0.00      0.00       630
+                       End of speed limit (80km/h)       0.00      0.00      0.00       150
+                             Speed limit (100km/h)       0.00      0.00      0.00       450
+                             Speed limit (120km/h)       0.00      0.00      0.00       450
+                                        No passing       0.13      0.17      0.15       480
+      No passing for vehicles over 3.5 metric tons       0.26      0.19      0.22       660
+             Right-of-way at the next intersection       0.00      0.00      0.00       420
+                                     Priority road       0.65      0.02      0.04       690
+                                             Yield       0.40      0.34      0.37       720
+                                              Stop       0.13      0.97      0.22       270
+                                       No vehicles       1.00      0.00      0.01       210
+          Vehicles over 3.5 metric tons prohibited       0.03      0.10      0.05       150
+                                          No entry       0.05      0.05      0.05       360
+                                   General caution       0.00      0.00      0.00       390
+                       Dangerous curve to the left       0.04      0.37      0.07        60
+                      Dangerous curve to the right       0.00      0.00      0.00        90
+                                      Double curve       0.04      0.19      0.06        90
+                                        Bumpy road       0.03      0.01      0.01       120
+                                     Slippery road       0.00      0.00      0.00       150
+                         Road narrows on the right       0.04      0.31      0.06        90
+                                         Road work       0.00      0.00      0.00       480
+                                   Traffic signals       0.00      0.00      0.00       180
+                                       Pedestrians       0.01      0.02      0.01        60
+                                 Children crossing       0.02      0.06      0.03       150
+                                 Bicycles crossing       0.00      0.00      0.00        90
+                                Beware of ice/snow       0.00      0.00      0.00       150
+                             Wild animals crossing       0.06      0.03      0.04       270
+               End of all speed and passing limits       0.00      0.00      0.00        60
+                                  Turn right ahead       0.00      0.00      0.00       210
+                                   Turn left ahead       0.05      0.45      0.09       120
+                                        Ahead only       0.13      0.07      0.09       390
+                              Go straight or right       0.09      0.17      0.12       120
+                               Go straight or left       0.00      0.00      0.00        60
+                                        Keep right       0.24      0.04      0.07       690
+                                         Keep left       0.02      0.11      0.03        90
+                              Roundabout mandatory       0.00      0.00      0.00        90
+                                 End of no passing       0.04      0.38      0.07        60
+End of no passing by vehicles over 3.5 metric tons       0.00      0.00      0.00        90
+
+                                          accuracy                           0.10     12630
+                                         macro avg       0.09      0.10      0.05     12630
+                                      weighted avg       0.14      0.10      0.08     12630
+
