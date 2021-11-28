@@ -70,6 +70,6 @@ class Predict_Net:
 			cv2.putText(image, label, (5, 15), cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 0, 255), 2)
 
 			# save the image to disk
-			#CHANGE: _rl = turn right/left only, _all = all signs
-			p = os.path.sep.join([self.args["predictions_all"], "{}.png".format(i)])
+			p = os.path.sep.join([self.args["predictions"], "{}.png".format(i)])
+
 			cv2.imwrite(p, image)

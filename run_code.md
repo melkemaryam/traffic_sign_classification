@@ -38,7 +38,7 @@ Command for all 43 traffic signs:
 (traffic_signs)$ python main.py --model ../output/neural_net.model --dataset ../gtsrb_all --images ../gtsrb_all/Test --predictions ../predictions_all --plot ../output/plot.png
 ```
 
-In case you want to train with the entire dataset, make sure to also change the paths within the `train.py` and `predict.py` files.
+In case you want to train with the entire dataset, make sure to also change the paths within the `train.py` file. There are four lines marked with `#CHANGE`, all you need to do is uncomment/comment the lines you need
 
 
 ## Results

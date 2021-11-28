@@ -36,14 +36,14 @@ class Train_Net:
 		self.net = Neural_Net()
 
 		# initialise parameters
-		self.number_of_epochs = 100
-		self.initial_learning_rate = 1e-2
-		self.batch_size = 32
+		self.number_of_epochs = 200
+		self.initial_learning_rate = 1e-2 # enter 1, 0.1, 0.01
+		self.batch_size = 32 # enter 2^1 to 2^8
 
 		# prepare the data and the model
 		self.prepare_data()
 
-		for i in range(20):
+		for i in range(100): #you can change the number of iterations
 			
 			# train the model
 			train = self.train()
@@ -97,7 +97,10 @@ class Train_Net:
 	def get_sign_names(self):
 		
 		# load sign names
-		sign_names = open("../sign_names_all.csv").read().strip().split("\n")[1:] #CHANGE: _rl = turn right/left only, _all = all signs
+		#CHANGE: _rl = turn right/left only, _all = all signs
+		#sign_names = open("../sign_names_all.csv").read().strip().split("\n")[1:]
+		sign_names = open("../sign_names_rl.csv").read().strip().split("\n")[1:]
+		
 		sign_names = [s.split(";")[1] for s in sign_names]
 
 		return sign_names
@@ -169,7 +172,9 @@ class Train_Net:
 		print("[INFO] training network...")
 
 		#CHANGE: _rl = turn right/left only, _all = all signs
-		log_dir = "../logs_all/fit_" + str(self.number_of_epochs) + "_" + str(self.batch_size) + "_" + str(self.initial_learning_rate) +"/" + datetime.now().strftime("%Y%m%d-%H%M%S")
+		#log_dir = "../logs_all/fit_" + str(self.number_of_epochs) + "_" + str(self.batch_size) + "_" + str(self.initial_learning_rate) +"/" + datetime.now().strftime("%Y%m%d-%H%M%S")
+		log_dir = "../logs_rl/fit_" + str(self.number_of_epochs) + "_" + str(self.batch_size) + "_" + str(self.initial_learning_rate) +"/" + datetime.now().strftime("%Y%m%d-%H%M%S")
+
 		tensorboard = TensorBoard(log_dir=log_dir, histogram_freq=1)
 
 		augment = self.get_augmentation()
@@ -201,7 +206,9 @@ class Train_Net:
 		self.epochs_run = len(train.history['loss'])
 
 		#CHANGE: _rl = turn right/left only, _all = all signs
-		file = open("../reports_all/test_report_" + str(self.number_of_epochs) + "_" + str(self.batch_size) + "_" + str(self.initial_learning_rate) +".txt", "a")
+		#file = open("../reports_all/test_report_" + str(self.number_of_epochs) + "_" + str(self.batch_size) + "_" + str(self.initial_learning_rate) +".txt", "a")
+		file = open("../reports_rl/test_report_" + str(self.number_of_epochs) + "_" + str(self.batch_size) + "_" + str(self.initial_learning_rate) +".txt", "a")
+
 		file.write("This is iteration no: " + str(i) + " with epochs = " + str(self.epochs_run) + ", batch size = " + str(self.batch_size) + ", and learning rate = " + str(self.initial_learning_rate) +" \n")
 		file.write(report)
 		file.write("\n")
